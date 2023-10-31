@@ -21,3 +21,7 @@ console.log("Contains 'Alex': " + linkedList.contains("Alex"));
 console.log(linkedList.getValues());
 console.log("Index of Bob: " + linkedList.find("Bob"));
 console.log("LinkedList to String: " + linkedList.toString());
+linkedList.insertAt("Jake", 1)
+console.log("Insert Jake at 2: " + linkedList.toString());
+console.log("Remove at 2: " + linkedList.removeAt(2));
+console.log(linkedList.toString());
